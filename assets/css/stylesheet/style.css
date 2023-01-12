@@ -1,0 +1,133 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	margin: 0;
+	line-height: 1.6em;
+	font-size: 15px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.container{
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.container .my-form{
+  text-align: center;
+}
+
+#main-header{
+	background-color: coral;
+	color: white;
+}
+
+#main-navbar{
+	background-color: darkgray;
+	color: white;
+}
+
+#main-navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+
+#main-navbar li{
+	display: inline;
+}
+
+#main-navbar a{
+	text-decoration: none;
+	color: white;
+	padding-right: 15px;
+	font-size: 18px;
+}
+
+#showcase{
+	background-image: url(../../images/bgimage.jpg);
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 20px;
+	color: white;
+}
+
+#main-body{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	padding: 10px;
+	background: #333;
+	color: white;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.my-form{
+	padding: 10px;
+  border: 1px solid black;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input, textarea{
+	width: 90%;
+	padding: 8px;
+}
+
+.my-form button{
+  padding: 10px 15px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #ffb727;
+}
+
+@media(max-width: 600px){
+	#main-body{
+		float: none;
+		width: 100%;
+	}
+	#sidebar{
+		float: none;
+		width: 100%;
+	}
+}
